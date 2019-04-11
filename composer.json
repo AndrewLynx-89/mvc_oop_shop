@@ -1,0 +1,22 @@
+{
+    "name": "joe/shop",
+    "authors": [
+        {
+            "name": "AndrewLynx",
+            "email": "3dben@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app",
+            "engine\\" : "engine"
+        },
+        "files": [
+            "engine/libs/functions.php",
+            "engine/Router/routes.php"
+        ]
+    },
+    "require": {
+        "rakit/validation": "^0.22.2"
+    }
+}
